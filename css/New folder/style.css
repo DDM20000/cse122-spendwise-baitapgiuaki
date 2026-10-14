@@ -1,0 +1,306 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f1f4f8;
+    color: #172b3a;
+    /* font-size: 14px; */
+}
+
+/* Khung ứng dụng */
+.app {
+    display: flex;
+    width: 100%;
+    max-width: none;
+    min-height: 100vh;
+    margin: 0;
+    background: #ddf4ff;
+}
+
+/* Menu bên trái */
+.sidebar {
+    width: 190px;
+    flex-shrink: 0;
+    padding: 18px 12px;
+    background: #80d5e9;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    margin-bottom: 28px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logo {
+    display: grid;
+    place-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+    background: #d9f7ff;
+    color: #087da0;
+}
+
+.role {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.menu a {
+    display: block;
+    padding: 11px 10px;
+    margin-bottom: 6px;
+    border-radius: 8px;
+    color: #173849;
+    text-decoration: none;
+}
+
+.menu a:hover,
+.menu a.active {
+    background: #a5e8f7;
+    font-weight: bold;
+}
+
+/* Thanh trên cùng */
+.content {
+    flex: 1;
+    min-width: 0;
+}
+
+.topbar {
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 22px;
+    border-bottom: 1px solid #a6e5f4;
+    color: #637b89;
+    font-size: 12px;
+}
+
+.account {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.avatar {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #61cce6;
+}
+
+/* Nội dung chính */
+main {
+    padding: 24px 22px;
+}
+
+h1 {
+    margin: 0 0 5px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.subtitle {
+    margin: 0 0 18px;
+    color: #657d8a;
+}
+
+/* Ba thẻ thống kê */
+.stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 16px;
+}
+
+.card {
+    padding: 13px;
+    border: 1px solid #9bdef0;
+    border-radius: 12px;
+    background: #e5f6ff;
+}
+
+.card-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #637b89;
+    font-size: 12px;
+}
+
+.symbol {
+    display: grid;
+    place-items: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 7px;
+    background: #8de7fa;
+    color: #087da0;
+}
+
+.warning-symbol {
+    background: #ffe0e0;
+    color: #d83b3b;
+}
+
+.success-symbol {
+    background: #d7fff0;
+    color: #00885e;
+}
+
+.number {
+    margin: 8px 0 5px;
+    font-size: 25px;
+}
+
+.note {
+    color: #0c9eae;
+    font-size: 11px;
+}
+
+.warning {
+    color: #d94b4b;
+}
+
+/* Tìm kiếm và bộ lọc */
+.filters {
+    display: grid;
+    grid-template-columns: 1fr 150px 130px;
+    gap: 9px;
+    margin-bottom: 14px;
+}
+
+input,
+select {
+    width: 100%;
+    min-width: 0;
+    padding: 11px 12px;
+    border: 1px solid #a5dff0;
+    border-radius: 8px;
+    background: #e8f7ff;
+    outline: none;
+}
+
+input:focus,
+select:focus {
+    border-color: #23aaca;
+}
+
+/* Bảng dữ liệu */
+.table-wrap {
+    overflow-x: auto;
+    border: 1px solid #9bdef0;
+    border-radius: 12px;
+    background: #e5f6ff;
+}
+
+table {
+    width: 100%;
+    min-width: 650px;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th {
+    padding: 12px 10px;
+    color: #718692;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+td {
+    padding: 15px 10px;
+    border-top: 1px solid #a8e2f0;
+    font-size: 12px;
+}
+
+tbody tr:hover {
+    background: #d6f1fc;
+}
+
+.risk {
+    color: #009eac;
+}
+
+.risk.medium {
+    color: #d78319;
+}
+
+.risk.high {
+    color: #e14c4c;
+}
+
+/* Nút Xem */
+.view {
+    padding: 7px 13px;
+    border: 1px solid #78d2e8;
+    border-radius: 7px;
+    background: #82d9ec;
+    color: #123849;
+    cursor: pointer;
+}
+
+.view:hover {
+    background: #5dc9e1;
+}
+
+/* Chân bảng và thông báo */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+    color: #718692;
+    font-size: 12px;
+}
+
+.message {
+    margin-top: 12px;
+    color: #087da0;
+    font-size: 12px;
+}
+
+/* Giao diện cho màn hình nhỏ */
+@media (max-width: 760px) {
+    .app {
+        width: 100%;
+        min-height: 100vh;
+        margin: 0;
+    }
+
+    .sidebar {
+        width: 145px;
+    }
+
+    .stats {
+        grid-template-columns: 1fr;
+    }
+
+    .filters {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 520px) {
+    .app {
+        display: block;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+
+    .menu {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    .menu a {
+        margin: 0;
+    }
+}
