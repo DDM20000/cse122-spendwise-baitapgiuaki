@@ -22,8 +22,8 @@ Trang Danh sách khách hàng giúp huấn luyện viên theo dõi tình hình t
 - **CSS3:** Thiết kế giao diện, bố cục, màu sắc, bảng dữ liệu và khả năng hiển thị trên các kích thước màn hình.
 - **JavaScript:** Xử lý tìm kiếm, lọc dữ liệu và các thao tác tương tác trên giao diện.
 
-## 6. Link Cava 
-Dán đường dẫn thiết kế Cava của nhóm tại đây: https://canva.link/84aezfp2ua6gn20
+## 6. Link Canva 
+Dán đường dẫn thiết kế Canva của nhóm tại đây: https://canva.link/84aezfp2ua6gn20
 
 ## 7. Link video
 Dán đường dẫn video demo hoặc video thuyết trình của nhóm tại đây: https://youtu.be/cwvSSm6ZsCM?si=zI1iINp1F3PPcu2U
