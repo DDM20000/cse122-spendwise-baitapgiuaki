@@ -29,4 +29,4 @@ Dán đường dẫn thiết kế Cava của nhóm tại đây: https://canva.li
 Dán đường dẫn video demo hoặc video thuyết trình của nhóm tại đây: https://youtu.be/cwvSSm6ZsCM?si=zI1iINp1F3PPcu2U
 
 ## 8. Link GitHub
-Dán đường dẫn repository GitHub của dự án tại đây: https://github.com/DDM20000/cse122-SpendWise-team18.git
+Dán đường dẫn repository GitHub của dự án tại đây: https://github.com/DDM20000/cse122-spendwise-baitapgiuaki.git
